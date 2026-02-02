@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import imgIntegrate from "@/assets/5402555b754bc317d46ff14ba54fee2dadc3b87b.png";
-import imgInput from "@/assets/5c60c7c76941ca9dfaba2707e2a4ab395c21ed2e.png";
 import svgPaths from "../imports/svg-qxyq0s3r5u";
 
 // Reusable Components
