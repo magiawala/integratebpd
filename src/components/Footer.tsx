@@ -64,13 +64,7 @@ function NewsletterForm() {
                 <SubscribeButton />
             </div>
             <div className="content-stretch flex gap-[12px] items-start relative shrink-0 w-full">
-                <div className="content-stretch flex h-[24px] items-start pt-[4px] relative shrink-0 w-[24px]">
-                    <div className="relative shrink-0 size-[20px]">
-                        <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[9999px]">
-                            <img alt="" className="absolute left-0 max-w-none size-full top-0" src={imgInput} />
-                        </div>
-                    </div>
-                </div>
+
                 <div className="content-stretch flex flex-1 flex-col items-start relative shrink-0">
                     <div className="flex flex-col font-['Poppins:Regular',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[14px] text-[rgba(248,250,252,0.7)] w-full">
                         <p className="leading-[20px] whitespace-pre-wrap">
