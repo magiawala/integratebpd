@@ -5,10 +5,12 @@ import HowItWorks from "@/imports/HowItWorks";
 import Results from "@/imports/Results";
 import Contact from "@/imports/Contact";
 import { Layout } from "@/components/Layout";
+import ScrollToTop from "@/components/ScrollToTop";
 
 export default function App() {
   return (
     <HashRouter>
+      <ScrollToTop />
       <Layout>
         <Routes>
           <Route path="/" element={<LandingPage />} />
