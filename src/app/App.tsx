@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import LandingPage from "@/imports/LandingPage";
 import AboutUs from "@/imports/AboutUs";
 import HowItWorks from "@/imports/HowItWorks";
@@ -8,7 +8,7 @@ import { Layout } from "@/components/Layout";
 
 export default function App() {
   return (
-    <BrowserRouter basename={import.meta.env.BASE_URL}>
+    <HashRouter>
       <Layout>
         <Routes>
           <Route path="/" element={<LandingPage />} />
@@ -18,6 +18,6 @@ export default function App() {
           <Route path="/results" element={<Results />} />
         </Routes>
       </Layout>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
